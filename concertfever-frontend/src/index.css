@@ -1,0 +1,22 @@
+/* Global CSS Settings */
+
+/* Adjust contents based on the height of navbar and footer */
+.content {
+  padding-top: 57px;
+  padding-bottom: 100px;
+}
+
+/* Styling for hover on explore-by-categories */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Evenly position navbar items */
+.flex-even {
+  flex: 1;
+}
